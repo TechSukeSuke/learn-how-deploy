@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "pnpm with-env next build",
-    "start": "pnpm with-env next start",
+    "build": "NODE_VERSION=20.0.0 next build",
+    "start": "NODE_VERSION=20.0.0 next start",
     "lint": "next lint",
     "with-env": "dotenv -e ../../.env --"
   },
